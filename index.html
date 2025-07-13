@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./js/main.js" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <section class="main center">
+      <div class="container">
+        <div class="calculator">
+          <!-- Input -->
+          <div class="input">
+            <input type="text"/>
+          </div>
+          <!-- Calc Buttons -->
+          <div class="calc-btns">
+            <div class="delete-all" onclick="removeAll()">AC</div>
+            <div class="delete-once" onclick="removeOnlyOne()">DE</div>
+            <div class="dot writable">.</div>
+            <div class="operation writable">/</div>
+            <div class="number writable">7</div>
+            <div class="number writable">8</div>
+            <div class="number writable">9</div>
+            <div class="operation writable">*</div>
+            <div class="number writable">4</div>
+            <div class="number writable">5</div>
+            <div class="number writable">6</div>
+            <div class="operation writable">-</div>
+            <div class="number writable">1</div>
+            <div class="number writable">2</div>
+            <div class="number writable">3</div>
+            <div class="operation writable">+</div>
+            <div class="number writable">00</div>
+            <div class="number writable">0</div>
+            <div class="equal" onclick="result()">=</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
